@@ -233,7 +233,7 @@ class ElectrumClient extends Client {
 	}
 	// Info from token creation transaction
 	// tokenID param is the token ID as cashaddr encoded or hexadecimal string.
-	tokenGenesisInfo(tokenID)){
+	tokenGenesisInfo(tokenID) {
 		return this.request('token.genesis.info', [tokenID])
 	}
 
